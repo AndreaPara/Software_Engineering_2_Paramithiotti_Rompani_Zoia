@@ -72,7 +72,7 @@ sig SharedRide extends Ride {
 
 sig Skynet {
 	registeredUsers:set RegisteredUser,
-	city: one City,
+	cities: one City,
 	taxidrivers: set TaxiDriver,
 	requests: set Request,
 	normalRides: set NormalRide,
@@ -182,11 +182,23 @@ fact noRegisteredUserNotInSkynet {
 	all r:RegisteredUser |one s:Skynet | r in s.registeredUsers
 }
 
+fact noCityNotInSkynet{
+	all c:City | one s:Skynet | c in s.cities
+}
+
 
 
 
 
 //------------------------------------PREDICATE-----------------------------------------------
+//---------------ONE SHARED WITH TWO REQUESTS FOR THE RIDE--------------
+pred showOneSharedWithTwoOrMoreRequests [sr:SharedRequest]{
+	sr in (one s:SharedRide| sr in s.requests && #SharedRide=1)
+}
+run showOneSharedWithTwoOrMoreRequests for 10
+
+//--------------------GENERAL SYSTEM------------------------------------------------------
+
 pred show (){
 	#Skynet=1
 	#Zone<12
