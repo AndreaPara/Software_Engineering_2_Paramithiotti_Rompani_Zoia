@@ -1,0 +1,6 @@
+To send the request to the taxi driver and communicating to the client which taxi is arriving to pick him we needed a way to communicate unilaterally from service to taxi driver and from service to mobile application, we chose to use push notifications
+This functionality uses a technology developed for mobile phones,it creates an unique link between phone and os creator servers saving battery life and reducing mobile data connection usage
+<image>
+
+
+
