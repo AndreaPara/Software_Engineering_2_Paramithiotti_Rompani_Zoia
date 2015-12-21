@@ -1,0 +1,251 @@
+// read alternative runtime descriptor if there is an alternative runtime 
+    // DD packaged inside the archive
+    public static void readAlternativeRuntimeDescriptor(ReadableArchive appArchive, ReadableArchive embeddedArchive, Archivist archivist, BundleDescriptor descriptor, String altDDPath) throws IOException, SAXParseException {
+        String altRuntimeDDPath = null;
+        ConfigurationDeploymentDescriptorFile confDD = null;
+        @SuppressWarnings("unchecked") 
+        List<ConfigurationDeploymentDescriptorFile> archivistConfDDFiles = archivist.getConfigurationDDFiles();
+        for (ConfigurationDeploymentDescriptorFile ddFile : sortConfigurationDDFiles(archivistConfDDFiles, archivist.getModuleType(), embeddedArchive)) {        
+            String ddPath = ddFile.getDeploymentDescriptorPath();
+            if (ddPath.indexOf(DescriptorConstants.WLS) != -1 && 
+                appArchive.exists(DescriptorConstants.WLS + altDDPath)) {
+                // TODO: need to revisit this for WLS alt-dd pattern
+                confDD = ddFile;
+                altRuntimeDDPath = DescriptorConstants.WLS + altDDPath;
+            } else if (ddPath.indexOf(DescriptorConstants.GF_PREFIX) != -1 &&
+                appArchive.exists(DescriptorConstants.GF_PREFIX + altDDPath)) {
+                confDD = ddFile;
+                altRuntimeDDPath = DescriptorConstants.GF_PREFIX + altDDPath;
+            } else if (ddPath.indexOf(DescriptorConstants.S1AS_PREFIX) != -1 
+                && appArchive.exists(DescriptorConstants.S1AS_PREFIX + altDDPath)){
+                confDD = ddFile;
+                altRuntimeDDPath = DescriptorConstants.S1AS_PREFIX + altDDPath;
+            }
+        }
+
+        if (confDD != null && altRuntimeDDPath != null) {
+            // found an alternative runtime DD file
+            InputStream is = appArchive.getEntry(altRuntimeDDPath); 
+            confDD.setXMLValidation(
+                archivist.getRuntimeXMLValidation());
+            confDD.setXMLValidationLevel(
+                archivist.getRuntimeXMLValidationLevel());
+            if (appArchive.getURI()!=null) {
+                confDD.setErrorReportingString(
+                    appArchive.getURI().getSchemeSpecificPart());
+            }
+
+            confDD.read(descriptor, is);
+            is.close();
+            archivist.postRuntimeDDsRead(descriptor, embeddedArchive);
+        } else {
+            archivist.readRuntimeDeploymentDescriptor(embeddedArchive,descriptor);
+        }
+    }
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/**
+     * Read the runtime deployment descriptors (can contained in one or
+     * many file) set the corresponding information in the passed descriptor.
+     * By default, the runtime deployment descriptors are all contained in
+     * the xml file characterized with the path returned by
+     *
+     * @param confDDFiles the sorted configuration files for this archive
+     * @param archive the archive
+     * @param descriptor the initialized deployment descriptor
+     * @param main the main archivist
+     * @param warnIfMultipleDDs whether to log warnings if both the GlassFish and the legacy Sun descriptors are present
+     */
+    public static void readRuntimeDeploymentDescriptor(List<ConfigurationDeploymentDescriptorFile> confDDFiles, ReadableArchive archive, RootDeploymentDescriptor descriptor, Archivist main, final boolean warnIfMultipleDDs) throws IOException, SAXParseException {
+        if (confDDFiles == null || confDDFiles.isEmpty()) {
+            return;
+        }
+        ConfigurationDeploymentDescriptorFile confDD = confDDFiles.get(0);
+        InputStream is = null;
+        try {
+            File runtimeAltDDFile = archive.getArchiveMetaData(
+                DeploymentProperties.RUNTIME_ALT_DD, File.class);
+            if (runtimeAltDDFile != null && runtimeAltDDFile.exists() && runtimeAltDDFile.isFile()) {
+                is = new FileInputStream(runtimeAltDDFile);
+            } else {
+                is = archive.getEntry(confDD.getDeploymentDescriptorPath());
+            }
+            if (is == null) {
+                return;
+            }
+            for (int i = 1; i < confDDFiles.size(); i++) {
+                if (warnIfMultipleDDs) {
+                    deplLogger.log(Level.WARNING,
+                                   COUNTERPART_CONFIGDD_EXISTS,
+                                   new Object[] {
+                                     confDDFiles.get(i).getDeploymentDescriptorPath(),
+                                     archive.getURI().getSchemeSpecificPart(),
+                                     confDD.getDeploymentDescriptorPath()});
+                }
+            }
+            confDD.setErrorReportingString(archive.getURI().getSchemeSpecificPart());
+            if (confDD.isValidating()) {
+              confDD.setXMLValidation(main.getRuntimeXMLValidation());
+              confDD.setXMLValidationLevel(main.getRuntimeXMLValidationLevel());
+            } else {
+              confDD.setXMLValidation(false);
+            }
+            confDD.read(descriptor, is);
+        } finally {
+            if (is != null) {
+                try {
+                    is.close();
+                } catch (IOException ioe) {
+                }
+            }
+        }
+    }
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+// get sniffer list for sub modules of an ear application
+    private static Collection<Sniffer> getSniffersForModule(ServiceLocator habitat, ReadableArchive archive, ModuleDescriptor md, Application app) throws Exception {
+        ArchiveHandler handler = habitat.getService(ArchiveHandler.class, md.getModuleType().toString());
+        SnifferManager snifferManager = habitat.getService(SnifferManager.class);
+        List<URI> classPathURIs = handler.getClassPathURIs(archive);
+        classPathURIs.addAll(getLibraryJarURIs(app, archive));
+        Types types = archive.getParentArchive().getExtraData(Types.class);
+        DeployCommandParameters parameters = archive.getParentArchive().getArchiveMetaData(DeploymentProperties.COMMAND_PARAMS, DeployCommandParameters.class);
+        Properties appProps = archive.getParentArchive().getArchiveMetaData(DeploymentProperties.APP_PROPS, Properties.class);
+        ExtendedDeploymentContext context = new DeploymentContextImpl(null, archive, parameters, habitat.<ServerEnvironment>getService(ServerEnvironment.class));
+        if (appProps != null) {
+            context.getAppProps().putAll(appProps);
+        }
+        context.setArchiveHandler(handler);
+        context.addTransientAppMetaData(Types.class.getName(), types);
+        Collection<Sniffer> sniffers = snifferManager.getSniffers(context, classPathURIs, types);
+        context.postDeployClean(true);
+        String type = getTypeFromModuleType(md.getModuleType());
+        Sniffer mainSniffer = null;
+        for (Sniffer sniffer : sniffers) {
+            if (sniffer.getModuleType().equals(type)) {
+                mainSniffer = sniffer;
+            }
+        }
+
+        // if the sub module does not show characteristics of certain module
+        // type, we should still use the application.xml defined module type
+        // to add the appropriate sniffer
+        if (mainSniffer == null) {
+            mainSniffer = snifferManager.getSniffer(type);
+            sniffers.add(mainSniffer);
+        }
+
+        String [] incompatibleTypes = mainSniffer.getIncompatibleSnifferTypes();
+        List<String> allIncompatTypes = addAdditionalIncompatTypes(mainSniffer, incompatibleTypes);
+
+        List<Sniffer> sniffersToRemove = new ArrayList<Sniffer>();
+        for (Sniffer sniffer : sniffers) {
+            for (String incompatType : allIncompatTypes) {
+                if (sniffer.getModuleType().equals(incompatType)) {
+                  deplLogger.log(Level.WARNING,
+                                 INCOMPATIBLE_TYPE,
+                                 new Object[] { type,
+                                                md.getArchiveUri(),
+                                                incompatType });
+
+                    sniffersToRemove.add(sniffer);
+                }
+            }
+        }
+
+        sniffers.removeAll(sniffersToRemove);
+
+        // store the module sniffer information so we don't need to 
+        // recalculate them later
+        Hashtable sniffersTable = archive.getParentArchive().getExtraData(Hashtable.class);
+        if (sniffersTable == null) {
+            sniffersTable = new Hashtable<String, Collection<Sniffer>>();
+            archive.getParentArchive().setExtraData(Hashtable.class, sniffersTable);
+        }
+        sniffersTable.put(md.getArchiveUri(), sniffers);
+
+        return sniffers;
+    }
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ private static String getTypeFromModuleType(ArchiveType moduleType) {
+        if (moduleType.equals(DOLUtils.warType())) {
+            return "web";
+        } else if (moduleType.equals(DOLUtils.ejbType())) {
+            return "ejb";
+        } else if (moduleType.equals(DOLUtils.carType())) {
+            return "appclient";
+        } else if (moduleType.equals(DOLUtils.rarType())) {
+            return "connector";
+        }
+        return null;
+    }
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+public static List<ConfigurationDeploymentDescriptorFile> getConfigurationDeploymentDescriptorFiles(ServiceLocator habitat, String containerType) {
+        List<ConfigurationDeploymentDescriptorFile> confDDFiles = new ArrayList<ConfigurationDeploymentDescriptorFile>();
+        for (ServiceHandle<?> serviceHandle : habitat.getAllServiceHandles(ConfigurationDeploymentDescriptorFileFor.class)) {
+            ActiveDescriptor<?> descriptor = serviceHandle.getActiveDescriptor();
+            String indexedType = descriptor.getMetadata().get(ConfigurationDeploymentDescriptorFileFor.DESCRIPTOR_FOR).get(0);
+            if(indexedType.equals(containerType)) {
+                ConfigurationDeploymentDescriptorFile confDD = (ConfigurationDeploymentDescriptorFile) serviceHandle.getService();
+                confDDFiles.add(confDD);
+            }
+        }
+        return confDDFiles;
+    }
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+/**
+     * receives notiification of the value for a particular tag
+     * 
+     * @param element the xml element
+     * @param value it's associated value
+     */
+    public static boolean setElementValue(XMLElement element,
+                                          String value,
+                                          Object o) {    
+        if (SCHEMA_LOCATION_TAG.equals(element.getCompleteName())) {
+            // we need to keep all the non j2ee/javaee schemaLocation tags
+            StringTokenizer st = new StringTokenizer(value);
+            StringBuffer sb = new StringBuffer();
+            while (st.hasMoreElements()) {
+                String namespace = (String) st.nextElement();
+		String schema;
+		if (st.hasMoreElements()) {
+		    schema = (String) st.nextElement();
+		} else {
+		    schema = namespace;
+		    namespace = TagNames.JAVAEE_NAMESPACE;
+		}
+                if (namespace.equals(TagNames.J2EE_NAMESPACE)) 
+                    continue;
+                if (namespace.equals(TagNames.JAVAEE_NAMESPACE)) 
+                    continue;
+                if (namespace.equals(W3C_XML_SCHEMA)) 
+                    continue;
+                sb.append(namespace);
+                sb.append(" ");
+                sb.append(schema);
+            }
+            String clientSchemaLocation = sb.toString();
+            if (clientSchemaLocation!=null && clientSchemaLocation.length()!=0) {
+                if (o instanceof RootDeploymentDescriptor) {
+                    ((RootDeploymentDescriptor) o).setSchemaLocation(clientSchemaLocation);
+                }
+            }
+            return true;
+        } else if (element.getQName().equals(TagNames.METADATA_COMPLETE)) {
+            if (o instanceof BundleDescriptor) {
+                ((BundleDescriptor) o).setFullAttribute(value);
+            }
+            return true;
+        }
+        return false;
+    }
+
+--------------------------------------------------------------------------------------------------------------------------------------------
