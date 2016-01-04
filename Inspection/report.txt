@@ -1,0 +1,256 @@
+Starting audit...
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:0: error: File does not end with a newline.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:0: error: Missing package-info.java file.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:110: error: First sentence should end with a period.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:114: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:116: error: Class DOLUtils should be declared as final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:117: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:118: error: Line is longer than 80 characters (found 83).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:118:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:118:18: error: 'static' modifier out of order with the JLS suggestions.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:119:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:119:18: error: 'static' modifier out of order with the JLS suggestions.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:121:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:124:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:125: error: Line is longer than 80 characters (found 100).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:129: error: Line is longer than 80 characters (found 103).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:129:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:129:54: error: '=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:129:55: error: '=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:129:98: error: '=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:129:99: error: '=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:130: error: Line is longer than 80 characters (found 99).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:132:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:132:32: error: Name 'deplLogger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:135: error: Line is longer than 80 characters (found 143).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:135:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:135:133: error: '=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:135:134: error: '=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:136: error: Line is longer than 80 characters (found 86).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:138:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:138:63: error: '=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:138:64: error: '=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:141: error: Line is longer than 80 characters (found 118).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:141:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:141:108: error: '=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:141:109: error: '=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:144: error: Line is longer than 80 characters (found 107).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:144:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:144:97: error: '=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:144:98: error: '=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:147: error: Line is longer than 80 characters (found 94).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:147:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:147:86: error: '=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:147:87: error: '=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:149: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:151: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:153:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:155: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:157:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:159:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:161: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:162: error: First sentence should end with a period.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:173:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:173:34: error: Parameter a should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:173:44: error: Parameter b should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:174:42: error: '||' should be on a new line.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:178: error: Line is longer than 80 characters (found 118).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:178:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:178:47: error: Parameter bundleDesc should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:178:76: error: Parameter archive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:182: error: Line is longer than 80 characters (found 91).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:182:58: error: 'typecast' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:183: error: Line is longer than 80 characters (found 90).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:183:46: error: 'typecast' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:187: error: Line is longer than 80 characters (found 106).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:187:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:187:47: error: Parameter app should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:187:64: error: Parameter archive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:210: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:212:4: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:213:8: error: Parameter context should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:214:67: error: 'typecast' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:216: error: 'if' construct must use '{}'s.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:216: error: Line is longer than 80 characters (found 113).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:222: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:231: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:231:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:231:49: error: Parameter habitat should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:232:9: error: Parameter type should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:232:22: error: Parameter thisApp should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:239: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:243: error: Line is longer than 80 characters (found 187).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:244: error: Line is longer than 80 characters (found 92).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:245: error: Line is longer than 80 characters (found 84).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:247: error: 'if' construct must use '{}'s.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:249: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:249: error: Line is longer than 80 characters (found 93).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:251: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:254: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:257:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:257:50: error: Parameter type should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:257:63: error: Parameter app should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:261: error: Line is longer than 80 characters (found 92).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:269:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:273:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:277:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:281:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:285:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:290: error: Line is longer than 80 characters (found 87).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:291: error: Line is longer than 80 characters (found 112).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:294: error: Line is longer than 80 characters (found 114).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:297: error: Line is longer than 80 characters (found 95).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:298: error: Line is longer than 80 characters (found 118).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:300:45: error: Parameter moduleType should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:306: error: Line is longer than 80 characters (found 109).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:307:11: error: 'if' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:313: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:315:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:320:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:321: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:326: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:328: error: Line is longer than 80 characters (found 192).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:328:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:328:89: error: Parameter ddFiles should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:328:142: error: Parameter archiveType should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:328:167: error: Parameter archive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:343: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:343: error: Line is longer than 80 characters (found 128).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:345: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:349: error: Line is longer than 80 characters (found 97).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:359: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:364: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:368: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:372: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:373: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:379: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:394:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:394:49: error: Parameter runtimeAltDDPath should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:395: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:397: error: Line is longer than 80 characters (found 174).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:404: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:406: error: Line is longer than 80 characters (found 213).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:406:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:406:91: error: Parameter ddFiles should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:406:144: error: Parameter archive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:406:169: error: Parameter archiveType should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:409: error: Line is longer than 80 characters (found 97).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:410: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:414: error: Line is longer than 80 characters (found 130).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:415: error: Line is longer than 80 characters (found 118).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:423: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:425: error: Line is longer than 80 characters (found 224).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:425:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:425:57: error: Parameter appArchive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:425:85: error: Parameter embeddedArchive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:425:118: error: Parameter archivist should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:425:139: error: Parameter descriptor should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:425:168: error: Parameter altDDPath should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:428: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:429: error: Line is longer than 80 characters (found 111).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:430: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:430: error: Line is longer than 80 characters (found 161).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:432: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:432:63: error: '&&' should be on a new line.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:434: error: Comment matches to-do format 'TODO:'.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:437:76: error: '&&' should be on a new line.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:441: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:442: error: Line is longer than 80 characters (found 83).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:442:83: error: '{' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:450: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:455:36: error: '!=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:455:38: error: '!=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:464: error: Line is longer than 80 characters (found 82).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:464:71: error: ',' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:478: error: Line is longer than 80 characters (found 120).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:480: error: Line is longer than 80 characters (found 262).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:480:56: error: Parameter confDDFiles should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:480:113: error: Parameter archive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:480:138: error: Parameter descriptor should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:480:175: error: Parameter main should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:480:231: error: Expected @throws tag for 'IOException'.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:480:244: error: Expected @throws tag for 'SAXParseException'.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:489: error: Line is longer than 80 characters (found 101).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:502: error: Line is longer than 80 characters (found 86).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:507: error: Line is longer than 80 characters (found 85).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:526: error: Line is longer than 80 characters (found 172).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:526:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:526:61: error: Parameter habitat should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:526:85: error: Parameter archive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:526:110: error: Parameter md should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:526:131: error: Parameter app should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:526:148: error: Parameter subArchivist should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:528: error: Line is longer than 80 characters (found 91).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:529: error: Line is longer than 80 characters (found 91).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:530: error: Line is longer than 80 characters (found 130).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:534:42: error: '{' is followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:539: error: Line is longer than 80 characters (found 165).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:539:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:539:61: error: Parameter habitat should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:539:85: error: Parameter archive should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:539:110: error: Parameter md should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:539:131: error: Parameter app should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:540: error: Line is longer than 80 characters (found 105).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:541: error: Line is longer than 80 characters (found 81).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:545: error: Line is longer than 80 characters (found 159).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:546: error: Line is longer than 80 characters (found 126).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:547: error: Line is longer than 80 characters (found 161).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:553: error: Line is longer than 80 characters (found 97).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:571:15: error: 'String' is followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:572: error: Line is longer than 80 characters (found 99).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:580:48: error: '{' is followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:591: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:593: error: Line is longer than 80 characters (found 91).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:596: error: Line is longer than 80 characters (found 84).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:603:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:603:49: error: Parameter moduleType should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:618: error: Line is longer than 80 characters (found 105).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:618:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:618:60: error: Parameter mainSniffer should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:618:81: error: Parameter incompatTypes should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:631: error: Line is longer than 80 characters (found 151).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:631:5: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:631:105: error: Parameter habitat should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:631:129: error: Parameter containerType should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:632: error: Line is longer than 80 characters (found 121).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:633: error: Line is longer than 80 characters (found 125).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:634: error: Line is longer than 80 characters (found 81).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:635: error: Line is longer than 80 characters (found 126).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:636:15: error: 'if' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:637: error: Line is longer than 80 characters (found 130).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:644: error: First sentence should end with a period.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:646: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:650: error: Expected an @return tag.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:650:43: error: Parameter element should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:651:43: error: Parameter value should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:652: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:652:43: error: Parameter o should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:652:50: error: Expected @param tag for 'o'.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:659:1: error: File contains tab characters (this is the first instance).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:666: error: 'if' construct must use '{}'s.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:666: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:668: error: 'if' construct must use '{}'s.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:668: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:670: error: 'if' construct must use '{}'s.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:670: error: Line has trailing spaces.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:677: error: Line is longer than 80 characters (found 81).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:677:37: error: '!=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:677:39: error: '!=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:677:76: error: '!=' is not preceded with whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:677:78: error: '!=' is not followed by whitespace.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:679: error: Line is longer than 80 characters (found 91).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:695:3: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:705:3: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:711:3: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:711:51: error: Parameter env should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:739:3: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:739:43: error: Parameter env should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:752:3: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:752:38: error: Parameter env should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:781:3: error: Missing a Javadoc comment.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:781:51: error: Parameter env should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:793: error: Line is longer than 80 characters (found 93).
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:806: error: Expected an @return tag.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:806:42: error: Parameter env should be final.
+C:\Users\Lorenzo\Documents\POLIMI\Magistrale\Primo Anno\Software Engineering 2\Inspection\.\DOLUtils.java:806:62: error: Expected @param tag for 'env'.
+Audit done.
